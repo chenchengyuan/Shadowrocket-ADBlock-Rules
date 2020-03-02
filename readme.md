@@ -110,6 +110,19 @@ PS：广告位欢迎与我联系~
 
 ----------------------------------------
 
+## 黑名单过滤 + 广告 + 屏蔽iOS更新
+
+黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
+
+- 代理：被墙的网站（GFWList）
+- 直连：正常的网站
+- 包含广告过滤
+- 包含屏蔽iOS更新。
+
+规则地址：<https://raw.githubusercontent.com/chenchengyuan/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad_iOSupdate.conf>
+
+![二维码](https://i.loli.net/2020/03/02/TAGtosj7zapImwH.png)
+
 ## 黑名单过滤 + 广告
 
 黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
@@ -159,6 +172,15 @@ PS：广告位欢迎与我联系~
 规则地址：<https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf>
 
 ![二维码](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_whitelist.png)
+
+
+## 国内外划分 + 广告 + 屏蔽iOS更新
+
+国内外划分，对中国网站直连，外国网站代理。包含广告过滤。包含屏蔽iOS更新。国外网站总是走代理，对于某些港澳台网站，速度反而会比直连更快。
+
+规则地址：<https://raw.githubusercontent.com/chenchengyuan/Shadowrocket-ADBlock-Rules/master/sr_cnip_ad_iOSupdate.conf>
+
+![二维码](https://i.loli.net/2020/03/02/pXUblYEnPQ2LksH.png)
 
 
 ## 国内外划分 + 广告
